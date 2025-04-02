@@ -22,7 +22,7 @@
 *	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 *	SOFTWARE.
 *
-*	Software originally created for educational purposes, for SPŠ Tøebíè.
+*	Software originally created for educational purposes, for SPÅ  TÃ¸ebÃ­Ã¨.
 *	Examples and latest version can be found on Github.
 *	https://github.com/Pataaa218/LED-strip-lib
 *
@@ -35,7 +35,7 @@
 #define LED_port PORTD				//default is PORTD
 
 #include <avr/io.h>					//LEDstrip library also includes interrupt and delay libraries
-#include "../../lib/LEDstrip.h"		//including the LEDstrip library 
+#include "../../lib/LEDstrip.h"		//including the LEDstrip library     (change to your library directory)
 
 ISR(TIMER1_COMPA_vect){
 	LED_callInt();					//simulate 3 PWM with one timer interrupt
